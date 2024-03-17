@@ -1,22 +1,23 @@
-# Project Title
+# Movie Info
 
-Simple overview of use/purpose.
+This a simple app that can be us used for generating movie or actor informations.
 
 ## Description
-
-An in-depth paragraph about your project and overview of use.
+This application has two menu. One for movie and another is for actors.
+In movie menu you can take the imformations such as "release year", "imdb votes", "imdb rating" and "actors". 
+In actor menu you can see details of "net worth", "actor gender", "actor height", "actor birth" and "actor age or if she/he died, ypou can see the date of death".
 
 ## Getting Started
+To start the program you should enter a valid name of a movie.
 
 ### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+First of all you should have java and nessary IDEs on your path.
+To run this program you need to install Gradle. It let the app to use some special libraries.
 
 ### Installing
+ YOu can fork this files in git hub.
+ The URL code of this repository is  "https://github.com/mahan-thm/Second-Assignment-CineScribe";
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
@@ -25,20 +26,17 @@ An in-depth paragraph about your project and overview of use.
 ```
 code blocks for commands
 ```
+At first you run the program, you see that it needs a name. You must enter a valid name of a movie to continue.
+NOTE: if you enter any unvalid input to the program, an error will be accure and you should try again.
+At the first menu (movie menu) there is a couple of option that gives you actor infoes.
+In "actors", by entering the actor name, you can see the information of that actor.
+
 
 ## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+This application have to connect to internet to export the datas. So dont forget to connect to a proper network.
 
 ## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Email: m.tahmasbi1383@gmail.com
 
 ## Version History
 
@@ -53,7 +51,7 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
-
+.
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
